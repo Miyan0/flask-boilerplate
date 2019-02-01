@@ -23,6 +23,20 @@ Both files are loaded by the `flask run` command.
 
 ---
 
+## Starting a new project
+
+1. Fork this repo.
+2. Create a new virtual environment:
+   1. `python -m venv venv` where the second `venv` is your virtualenv name.
+   2. note that if you don't name your virtual environment `venv`, you should modify the `.gitignore` file.
+3. Activate the virtual environment:
+   1. For windows: `venv\Script\activate`
+   2. For macOs: `source venv/bin/activate`
+4. Install the packages
+   1. `pip install -r requirements.txt`
+
+
+
 ## Project layout
 
 See [Project Layout](http://flask.pocoo.org/docs/1.0/tutorial/layout/).
