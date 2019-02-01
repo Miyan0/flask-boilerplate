@@ -26,14 +26,21 @@ Both files are loaded by the `flask run` command.
 ## Starting a new project
 
 1. Fork this repo.
-2. Create a new virtual environment:
+2. Rename the `project` folder to your liking.
+3. Change the `FLASK_APP` variable in `.flaskenv` to your new project name.
+4. Rename `env_example` to `.env`
+5. Create a new virtual environment:
    1. `python -m venv venv` where the second `venv` is your virtualenv name.
    2. note that if you don't name your virtual environment `venv`, you should modify the `.gitignore` file.
-3. Activate the virtual environment:
+6. Activate the virtual environment:
    1. For windows: `venv\Script\activate`
    2. For macOs: `source venv/bin/activate`
-4. Install the packages
+7. Install the packages
    1. `pip install -r requirements.txt`
+8. Run the project to make sure everything is setup properly.
+   1. `flask run`
+9. Try it out
+   1.  Open your browser at [http://127.0.0.1:5000/hello](http://127.0.0.1:5000/hello)
 
 
 
@@ -57,7 +64,7 @@ See [Project Layout](http://flask.pocoo.org/docs/1.0/tutorial/layout/).
 │          ├── main.css
 │       └── js/
 │          ├── some.js
-│       └── imgages/
+│       └── images/
 │          ├── some.png
 ├── tests/
 │   ├── conftest.py
@@ -72,6 +79,9 @@ See [Project Layout](http://flask.pocoo.org/docs/1.0/tutorial/layout/).
 ```
 
 The first time you execute `flask run` the application factory will create an instance folder.
+
+See [Flask Documentation](http://flask.pocoo.org/docs/1.0/config/?highlight=instance#instance-folders) for its purpose.
+
 
 ### project folder
 
