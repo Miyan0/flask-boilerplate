@@ -1,6 +1,6 @@
 # Boilerplate Flask Project
 
-This project is for starting new projects using [Flask](http://flask.pocoo.org/). It is based on the [official Flask tutorial](http://flask.pocoo.org/docs/1.0/tutorial/) and uses some new functionalities of Flask version 1.0.
+This boilerplate is for starting new projects using [Flask](http://flask.pocoo.org/). It is based on the [official Flask tutorial](http://flask.pocoo.org/docs/1.0/tutorial/) which uses some new functionalities from Flask version 1.0.
 
 If you prefer, you can modify this project layout by following the method from this article:
 
