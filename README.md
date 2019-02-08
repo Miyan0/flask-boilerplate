@@ -1,8 +1,6 @@
 # Boilerplate Flask Project
 
-This project is for starting new projects using Flask. It is based on the official Flask tutorial and uses some new functionalities of Flask version 1.0.
-
-[Flask official tutorial](http://flask.pocoo.org/docs/1.0/tutorial/)
+This project is for starting new projects using [Flask](http://flask.pocoo.org/). It is based on the [official Flask tutorial](http://flask.pocoo.org/docs/1.0/tutorial/) and uses some new functionalities of Flask version 1.0.
 
 If you prefer, you can modify this project layout by following the method from this article:
 
@@ -10,7 +8,7 @@ If you prefer, you can modify this project layout by following the method from t
 
 ---
 
-It also uses tips from Flask official command line article for environment variables management. This simplify the usage of the `.env` file for variables which should not be under version control. For this it uses `python-dotenv` which is automatically handled by Flask when you run the application with `flask run`.
+This project also uses tips from Flask official command line article for environment variables management. This simplify the usage of the `.env` file for variables which should not be under version control. For this, it uses `python-dotenv` which is automatically handled by Flask when you run the application with `flask run`.
 
 Environment variables are split in two files:
 
@@ -95,4 +93,10 @@ See [Flask Documentation](http://flask.pocoo.org/docs/1.0/config/?highlight=inst
 ### project folder
 
 This should be renamed with the name of your project and uses the application factory method described in the Flask tutorial.
+
+---
+
+## Testing
+
+Since this is only a boilerplate, it does **not** include any testing. See [this page from the Flask tutorial](http://flask.pocoo.org/docs/1.0/tutorial/tests/) for indications on how to test a Flask application.
 
