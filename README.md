@@ -66,6 +66,13 @@ See [Project Layout](http://flask.pocoo.org/docs/1.0/tutorial/layout/).
 │          ├── some.js
 │       └── images/
 │          ├── some.png
+├── stylesheets/
+│   ├── abstracts/
+│   ├── base/
+│   ├── components/
+│   ├── layout/
+│   ├── pages/
+│   └── main.scss
 ├── tests/
 │   ├── conftest.py
 │   ├── data.sql
@@ -74,8 +81,10 @@ See [Project Layout](http://flask.pocoo.org/docs/1.0/tutorial/layout/).
 │   ├── test_auth.py
 │   └── test_blog.py
 ├── venv/
-├── setup.py
-└── MANIFEST.in
+├── .editorconfig
+├── .flaskenv
+├── .gitignore
+└── requirements.txt
 ```
 
 The first time you execute `flask run` the application factory will create an instance folder.
