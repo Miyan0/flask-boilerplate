@@ -94,5 +94,5 @@ See [Flask Documentation](http://flask.pocoo.org/docs/1.0/config/?highlight=inst
 
 ### project folder
 
-This should be renamed with the name of your project and uses the application factory method describe in the Flask tutorial.
+This should be renamed with the name of your project and uses the application factory method described in the Flask tutorial.
 
