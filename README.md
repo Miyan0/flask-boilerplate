@@ -17,6 +17,9 @@ Environment variables are split in two files:
 
 Both files are loaded by the `flask run` command.
 
+The `.flaskenv` file is only used for development though. In production, your application will likely be
+run using gnunicorn or uwsgi.
+
 [Flask command line article](http://flask.pocoo.org/docs/1.0/cli/)
 
 ---
@@ -28,8 +31,9 @@ Both files are loaded by the `flask run` command.
 3. Change the `FLASK_APP` variable in `.flaskenv` to your new project name.
 4. Rename `env_example` to `.env`
 5. Create a new virtual environment:
-   1. `python -m venv venv` where the second `venv` is your virtualenv name.
-   2. note that if you don't name your virtual environment `venv`, you should modify the `.gitignore` file.
+   1. `python -m venv venv` where the second `venv` is your virtualenv name,
+   2. or use your prefered virtual environment method.
+   3. note that if you don't name your virtual environment `venv`, you should modify the `.gitignore` file.
 6. Activate the virtual environment:
    1. For windows: `venv\Script\activate`
    2. For macOs: `source venv/bin/activate`
@@ -38,7 +42,7 @@ Both files are loaded by the `flask run` command.
 8. Run the project to make sure everything is setup properly.
    1. `flask run`
 9. Try it out
-   1.  Open your browser at [http://127.0.0.1:5000/hello](http://127.0.0.1:5000/hello)
+   1.  Open your browser at [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
 
 
 
@@ -73,21 +77,13 @@ See [Project Layout](http://flask.pocoo.org/docs/1.0/tutorial/layout/).
 │   └── main.scss
 ├── tests/
 │   ├── conftest.py
-│   ├── data.sql
-│   ├── test_factory.py
-│   ├── test_db.py
-│   ├── test_auth.py
-│   └── test_blog.py
 ├── venv/
 ├── .editorconfig
 ├── .flaskenv
 ├── .gitignore
+├── .config.py
 └── requirements.txt
 ```
-
-The first time you execute `flask run` the application factory will create an instance folder.
-
-See [Flask Documentation](http://flask.pocoo.org/docs/1.0/config/?highlight=instance#instance-folders) for its purpose.
 
 
 ### project folder
