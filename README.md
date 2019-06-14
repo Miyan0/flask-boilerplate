@@ -20,6 +20,9 @@ Both files are loaded by the `flask run` command.
 The `.flaskenv` file is only used for development though. In production, your application will likely be
 run using gnunicorn or uwsgi.
 
+The project includes a config.py file which is an object loaded in create_app. This is where you should
+put all configuration variables to be used by the application. You should use it to set values like a secret key (which is already included) or any other values your application needs.
+
 [Flask command line article](http://flask.pocoo.org/docs/1.0/cli/)
 
 ---
