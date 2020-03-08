@@ -35,7 +35,7 @@ put all configuration variables to be used by the application. You should use it
 4. Rename `env_example` to `.env`
 5. Create a new virtual environment:
    1. `python -m venv venv` where the second `venv` is your virtualenv name,
-   2. or use your prefered virtual environment method.
+   2. or use your preferred virtual environment method.
    3. note that if you don't name your virtual environment `venv`, you should modify the `.gitignore` file.
 6. Activate the virtual environment:
    1. For windows: `venv\Script\activate`
@@ -99,3 +99,7 @@ This should be renamed with the name of your project and uses the application fa
 
 Since this is only a boilerplate, it does **not** include any testing. See [this page from the Flask tutorial](http://flask.pocoo.org/docs/1.0/tutorial/tests/) for indications on how to test a Flask application.
 
+## Notes
+
+Since I'm now using [Poetry](https://python-poetry.org/) to manage virtual environments, I added its config files to
+this boilerplate. Feel free to remove `poetry.lock` and `pyproject.toml` if you don't use it.
