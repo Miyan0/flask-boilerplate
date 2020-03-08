@@ -1,6 +1,6 @@
 # Boilerplate Flask Project
 
-This boilerplate is for starting new projects using [Flask](http://flask.pocoo.org/). It is based on the [official Flask tutorial](http://flask.pocoo.org/docs/1.0/tutorial/) which uses some new functionalities from Flask version 1.0.
+This boilerplate is for starting new projects using [Flask](http://flask.pocoo.org/). It is based on the [official Flask tutorial](http://flask.pocoo.org/docs/1.0/tutorial/) which uses some new functionality from Flask version 1.0.
 
 If you prefer, you can modify this project layout by following the method from this article:
 
@@ -46,12 +46,12 @@ put all configuration variables to be used by the application. You should use it
    1. `flask run`
 9. Try it out
    1.  Open your browser at [http://127.0.0.1:5000/](http://127.0.0.1:5000/)
-
-
+10. Modify to your liking by modifying your Flask application in `project/__init__.py`
 
 ## Project layout
 
-See [Project Layout](http://flask.pocoo.org/docs/1.0/tutorial/layout/).
+An example of a Flask [project layout](http://flask.pocoo.org/docs/1.0/tutorial/layout/). This is for a
+more complex project using Blueprints.
 
 ```
 /home/user/Projects/your-flask-project
